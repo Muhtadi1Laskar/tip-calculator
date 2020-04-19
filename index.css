@@ -15,6 +15,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 5rem;
@@ -165,52 +166,3 @@ body {
     color: #000000;
 
 }
-
-@media screen and (max-width: 870px) {
-    .container, .section {
-      width: 100%;
-      padding: 0;
-      font-size: 1rem;
-    }
-    
-  }
-
-  @media screen and (max-min: 856px) {
-     .section {
-      width: 100%;
-      padding: 0;
-      font-size: 1rem;
-      padding: 1rem;
-    }
-    
-  }
-
-  @media screen and (max-min: 320px) {
-    .section {
-     width: 100%;
-     font-size: 1rem;
-     padding: 1rem;
-   }
-   #tips {
-    font-family: Abhaya Libre ExtraBold;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 80px;
-    text-align: center;
-
-        color: #000000;
-    }
-
-    #total {
-        font-family: Abhaya Libre ExtraBold;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 80px;
-        text-align: center;
-
-        color: #000000;
-}
-   
- }
