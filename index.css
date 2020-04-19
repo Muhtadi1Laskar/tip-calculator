@@ -10,6 +10,9 @@ body {
     padding: 0;
     background-color: #3FD2C7;
     font-family: Abhaya Libre ExtraBold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -19,7 +22,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5rem;
-    width: 100%;
 }
 
 .heading {
@@ -130,7 +132,7 @@ body {
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
     font-weight: 800;
-    font-size: 68px;
+    font-size: 60px;
     line-height: 80px;
     text-align: center;
 
@@ -141,7 +143,7 @@ body {
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
     font-weight: 800;
-    font-size: 68px;
+    font-size: 60px;
     line-height: 80px;
     text-align: center;
 
@@ -166,3 +168,10 @@ body {
     color: #000000;
 
 }
+
+@media screen and (min-width: 320px){
+    .flex-container {
+        display: flex;
+    }    
+}
+

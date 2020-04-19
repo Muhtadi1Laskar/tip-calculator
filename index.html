@@ -12,32 +12,35 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div class="container">
-        <div class="heading">
-            <h1>Tip Calculator</h1>
-        </div>
-        <div class="section">
-            <div class="form form-group">
-                <label for="bill">Bill</label>
-                <input type="text" id="bill" class="bill form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-                <label for="tip">Tip%</label>
-                <input type="number" id="tip" class="tip form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-                <label for="number">Number of person</label>
-                <input type="number" id="number" class="number form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+    <div class="flex-container">
+        <div class="container">
+            <div class="heading">
+                <h1>Tip Calculator</h1>
             </div>
-            <div id="output" class="output">
-                <div class="tip">
-                    <h3 id="per-tip">Tip per person: </h3>
-                    <span id="tips">$ 00.00</span>
+            <div class="section">
+                <div class="form form-group">
+                    <label for="bill">Bill</label>
+                    <input type="text" id="bill" class="bill form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                    <label for="tip">Tip%</label>
+                    <input type="number" id="tip" class="tip form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                    <label for="number">Number of person</label>
+                    <input type="number" id="number" class="number form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
                 </div>
-                <div class="total">
-                    <h3 id="per-total">Total per person: </h3>
-                    <span id="total">$ 0.00</span>
+                <div id="output" class="output">
+                    <div class="tip">
+                        <h3 id="per-tip">Tip per person: </h3>
+                        <span id="tips">$ 00.00</span>
+                    </div>
+                    <div class="total">
+                        <h3 id="per-total">bill per person: </h3>
+                        <span id="total">$ 0.00</span>
+                    </div>
                 </div>
             </div>
+                <div class="buttons">
+                    <button type="button" id="btn" class="btn">Calculate</button>
+                </div>
         </div>
-        <button type="button" id="btn" class="btn">Calculate</button>
-        
     </div>
 
     <script src="index.js"></script>
